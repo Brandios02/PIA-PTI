@@ -6,7 +6,7 @@ body {
   }
   
 header{
-    background-color: #f70505;
+    background-color: rgb(228, 241, 33);
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
@@ -25,7 +25,7 @@ nav ul li {
     margin-right: 500px;
   }
 h1 {
-    background-color: #f70505;
+    background-color: #2905f7;
     color: rgb(7, 3, 3);
     display: flex;
     justify-content: center;
@@ -54,7 +54,7 @@ img{
 }
 
 #iconos {
-    background-color: rgb(218, 0, 0);
+    background-color: rgb(228, 241, 33);
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -78,7 +78,7 @@ img{
 }
 
 #final {
-    background-color: rgb(233, 5, 5);
+    background-color: rgb(228, 241, 33);
     border-radius: 5px;
     width: 700px;
     height: 290px;
@@ -91,11 +91,11 @@ img{
 
 #final p{
     width: 650px;
-    margin-top: 10px;
+    text-align:center;
 }
 
 a{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(228, 241, 33);
     border-radius: 3px;
     padding: 10px 10px;
     margin: 10px 10px;
@@ -109,14 +109,6 @@ a{
     margin: 10px;
 }
 
-#p10{
-    background-color: #f70505;
-    color: rgb(0, 0, 0);
-    padding: 15px;
-    justify-content: center;
-
-}
-
 body{
-    background-color: #ffffff;
+    background-image: linear-gradient(rgba(255, 238, 0, 0.5), rgba(12, 24, 199, 0.5)),                  url("img/ELECRTONICA.jpg");
 }
