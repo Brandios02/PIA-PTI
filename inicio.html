@@ -1,60 +1,60 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Tecnologia Fresh</title>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Tecnologia fresh</h1>
-      <nav>
+    <link rel="stylesheet" href="estilohome.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tecnologia fresh</h1>
+<header>
+    <nav>
         <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="inicio.html">Productos</a></li>
+          <li><a href="inicio.html">Inicio</a></li>
+          <li><a href="index.html">Productos</a></li>
           <li><a href="contacto.html">Contacto</a></li>
         </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="laptop">
-        <h2>Laptop</h2>
-        <img src="img/laptop.jpg" alt="Laptop">
-        <p>Descripción de Laptop: Sistema operativo windows 11,</p> 
-            <p>8gb Ram, 500gb Disco duro</p>
-        <p>Precio: $13000.00</p>
-        <button onclick="agregarAlCarrito(13000)">Agregar al carrito</button>
-      </section>
-      <section class="celular">
-        <h2>Celular</h2>
-        <img src="https://tienda.monteprovidencia.com.mx/cdn/shop/products/G8Plusazul_1200x1200.png?v=1636763559" alt="Moto G8 Plus">
-        <p>Descripción del celular: Sistema operativo android,</p> 
-        <p>4gb de Ram, 64GB almacenamiento interno</p>
-        <p>Precio: $4000.00</p>
-        <button onclick="agregarAlCarrito(4000)">Agregar al carrito</button>
-      </section>
-      <section class="impresora">
-        <h2>Impresora</h2>
-        <img src="https://mediaserver.goepson.com/ImConvServlet/imconv/766fb9e69dc761e4d42e76e5bfaa647d6629a375/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=foto-ecotank-L8180-5-690x480" alt="Impresora">
-        <p>Impresora 2023, Impresión automática</p>
-        <p>a doble cara. Ahorra tiempo y máximiza </p>
-        <p>la productividad con la impresión automática</p>
-        <p>a doble cara y el escaneo de múltiples páginas.</p>
-        <p>Precio: $23000.00</p>
-        <button onclick="agregarAlCarrito(23000)">Agregar al carrito</button>
-      </section>
-      <section>
-        <h2>Carrito de compras</h2>
-        <ul id="carrito">
-          <li>Carrito vacío</li>
-        </ul>
-        <p>Total: <span id="total"></span></p>
-      </section>
-    </main>
-    <footer>
-      <p>Todos los derechos reservados.</p>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+    </nav>
+</header>
+    <section>
+    <h2>Bienvenido a Tecnologia Fresh</h2>
+
+    <p>Somos una tienda electronica dedicada a la venta de productos tecnologicos, iniciamos en 2023</p>
+    
+    </section>
+    <div id="contenedor">
+        <article id="fotos">
+            <section id="iconos">
+                <br>
+                <img src="img/Celulares.jpg" alt="Celulares">
+                <a id = "botonfinal" href="index.html">Celulares</a>
+            </section>
+            <section id="iconos">
+                <br>
+                <img src="img/laptop.jpg" alt="Vue">
+                <a id = "botonfinal" href="index.html">Laptop</a>
+            </section>
+            <section id="iconos">
+                <br>
+                <img src="https://mediaserver.goepson.com/ImConvServlet/imconv/766fb9e69dc761e4d42e76e5bfaa647d6629a375/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=foto-ecotank-L8180-5-690x480" alt="Impresoras">
+                <a id = "botonfinal" href="index.html">Impresoras</a>
+            </section>
+
+        </article>
+        <br>
+        <article id="a2">
+            <section id="final">
+                <img id="imagen" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYNu4gxG8X30OIG6cR7jTxvp0BcDNn5QP1SA&usqp=CAU" alt="imagen">
+                <h2>Buzon</h2>
+                <p id="10">Si tienes alguna queja o sugerencia contactanos, si no encontraste lo que buscabas mandanos un correo para consegirlo</p>
+                <a id = "botonfinal" href="contacto.html">Contacto</a>
+            </section>
+        </article>
+    </div>
+
+
+    
+</body>
 </html>
